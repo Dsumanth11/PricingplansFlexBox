@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+    margin: 0px;
+    background-color: #000000;
+    color: white;
+    font-size: 62.5%;
+}
+
+.plans-heading {
+    color: #ff6e30;
+    font-family: "Roboto";
+    font-size: 1.5rem;
+}
+
+.plan-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-container {
+    padding: 1.5rem;
+}
+
+.P30FreeTrail {
+    font-size: 1rem;
+}
+
+#paraheading {
+    text-align: center;
+}
+
+#priceheading {
+    text-align: center;
+}
+
+.plan_card {
+    padding: 0.85rem;
+    background-color: #2c353d;
+    height: 24rem;
+    width: 14rem;
+    max-width: 18rem;
+    max-height: 25rem;
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    margin: 15px;
+}
+
+.image_ele {
+    align-self: flex-end;
+}
+
+.imagePic {
+    height: 2rem;
+}
+
+.price_ele {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+
+.permonth {
+    display: flex;
+    font-style: italic;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.costPricePlans {
+    font-size: 25px;
+}
+
+.PlanDescriptionpara {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.listitemsStyling {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+
+.notpresent {
+    list-style-type: none;
+}
+
+.getStartedButtonPlan {
+    width: 12rem;
+    max-width: 16rem;
+    border-radius: 0.5rem;
+    height: 28px;
+    font-weight: normal;
+    font-family: "Roboto";
+    border: 0px;
+    margin: 10px;
+}
+
+.unorderedListItems {
+    flex-grow: 1;
+}
+
+.getStartedContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.orange_btn_clr {
+    background-color: #ff6e30;
+    color: white;
+}
+
+@media all and (min-width:576px) {
+    body {
+        font-size: 100%;
+    }
+}
